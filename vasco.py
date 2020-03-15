@@ -1,1 +1,0 @@
-print  ("O VASCO É O MAIOR TIME DO MUNDO")
