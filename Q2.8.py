@@ -12,4 +12,5 @@ elif produto2 < produto1 and produto3:
 	print("O produto mais barato é o segundo produto com o valor de %.2f em %s" % (produto2, moeda))
 elif produto3 < produto1 and produto2:
 	print("O produto mais barato é o terceiro produto com o valor de %.2f em %s" % (produto3, moeda))
+	
 
