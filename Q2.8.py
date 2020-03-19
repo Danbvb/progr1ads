@@ -12,5 +12,13 @@ elif produto2 < produto1 and produto3:
 	print("O produto mais barato é o segundo produto com o valor de %.2f em %s" % (produto2, moeda))
 elif produto3 < produto1 and produto2:
 	print("O produto mais barato é o terceiro produto com o valor de %.2f em %s" % (produto3, moeda))
-	
+elif produto1 == produto2 < produto3:
+        print("Os produtos mais baratos são os produtos nos valores de %.2f e o %.2f em %s" % (produto1, produto2, moeda))
+elif produto1 == produto3 < produto2:
+        print("Os produtos mais baratos são os produtos nos valores de %2.f e o %.2f em %s" % (produto1, produto3, moeda))
+elif produto2 == produto3 < produto1:
+        print("Os produtos mais baratos são os produtos nos valores de  %2.f e o %2.f em %s" %  (produto2, produto3, moeda))
+else:
+        print("Todos os valores se equivalem em %s " % moeda)
+
 
