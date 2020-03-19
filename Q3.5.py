@@ -10,9 +10,14 @@ lado1 = int(input("Qual o valor do lado 1: "))
 lado2= int(input("Qual o valor do lado 2: "))
 lado3 = int(input("Qual o valor do lado 3: "))
 
-if lado1 == lado2 == lado3:
-	print ("O triângulo será equilátero porquê todos os lados são iguais!")
-elif lado1 != lado2 != lado3:
-	print ("O triângulo será escaleno porquê todos os lados são diferentes!")
+if lado1 + lado2 > lado3:
+        if lado1 == lado2 == lado3:
+                print ("O triângulo será equilátero porquê todos os lados são iguais!")
+        elif lado1 != lado2 != lado3:
+                print ("O triângulo será escaleno porquê todos os lados são diferentes!")
+        else:
+                print ("O triângulo será Isósceles porquê tem dois lados iguais!")
 else:
-	print ("O triângulo será Isósceles porquê tem dois lados iguais!")
+        print ("Não tem os requisitos minimos para se formar um triângulo!")
+        print ("Tente novamente respeitando as regras para se formar um triângulo!")
+        
