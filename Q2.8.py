@@ -7,9 +7,9 @@ produto3 = float(input("Informe o valor do terceiro produto: "))
 moeda = str(input("Informe a moeda que você irá utilizar para comprar o produto: "))
 
 if produto1 < produto2 and produto3:
-	print("O produto mais barato é o primeiro produto com o valor de %.2f em %s" % produto1, moeda)
+	print("O produto mais barato é o primeiro produto com o valor de %.2f em %s" % (produto1, moeda))
 elif produto2 < produto1 and produto3:
-	print("O produto mais barato é o segundo produto com o valor de %.2f em %s" % produto2, moeda)
+	print("O produto mais barato é o segundo produto com o valor de %.2f em %s" % (produto2, moeda))
 elif produto3 < produto1 and produto2:
-	print("O produto mais barato é o terceiro produto com o valor de %.2f em %s" % produto3, moeda)
+	print("O produto mais barato é o terceiro produto com o valor de %.2f em %s" % (produto3, moeda))
 
